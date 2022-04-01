@@ -1,2 +1,15 @@
 #!/bin/bash
-cd /home
+
+cd
+
+if [ -d ./project ]
+
+	    then 
+
+		            echo hi it exists!
+
+			        else
+
+					        echo it doesn't exist!
+
+						cd project/
